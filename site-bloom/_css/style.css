@@ -1,27 +1,23 @@
+@charset "UTF-8";
+
 body{
   margin:auto;
-  width:960px;
+  width:900px;
   font-family:arial;
   font-size:normal;
-  text-align:justify;
 }
 header{
   margin-top:-20px;
-  height:80px;
+  height:100px;
 }
-head::placeholder{position:sticky;}
-
 footer{
-  margin-bottom:-10px;
-  height:50px;
-  margin-bottom:-20px;
+  height:80px;
   text-align:center;
 }
 header, footer{
   width:100%;
   background-color:#2b2b2b;
   color:white;
-  margin:-20px;
 }
 header a, footer a{
 	text-decoration:none;
@@ -29,10 +25,15 @@ header a, footer a{
 }
 main{
   width:90%;
-  margin:0px;
+  position:relative;
 }
 article{
-  margin:10% auto;
+  margin:auto 20px;
+  width:200px;
+  float:left;
+}
+p{
+  text-align:justify;
 }
 ul{
   text-align:right;
@@ -45,9 +46,10 @@ li{
 h1.logo{
   font-family:sans-serif;
   color:orange;
-  position:fixed;
+  position:static;
   float:left;
 }
 figure img{
   background-position:right top;
 }
+head::placeholder{position:sticky;}

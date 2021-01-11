@@ -1,65 +1,77 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
 
 body{
-  font-family:arial;
-  font-size:normal;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size:14px;
+  text-align:justify;
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
 }
 header{
   margin-top:-20px;
-  height:100px;
+  height:140px;
 }
 footer{
-  height:80px;
+  clear:both;
+  height:70px;
+  margin-bottom:-20px;
+  margin-top:20px;
   text-align:center;
 }
 header, footer{
   width:100%;
   background-color:rgb(50, 50, 50);
   color:#ffffff;
+  font-family:'Concert One', cursive;
 }
 header a, footer a{
 	text-decoration:none;
   color:#ffffff;
 }
-main.esposition{
+footer p{
+  position:absolute;
+  width:100%;
+}
+.esposition{
   background-color:rgb(240, 240, 240);
   margin:-20px auto;
 }
-section{
-  position:relative;
-  margin:0px 10%;
+.primary, .secundary{
+  margin:auto 10%;
   padding-top:40px;
   padding-bottom:40px;
 }
-article{
-  width:200px;
-  float:left;
-}
-article.article-two{
-  margin:auto 12%;
-}
-p{
-  text-align:justify;
+nav.hconfg{
+  display:block;
 }
 ul{
   text-align:right;
-  margin:auto;
+  position:absolute;
+  right:10%;
+  top:20px;
 }
 li{
   display:inline-block;
-  margin:auto 10px;
+  margin-right:20px;
 }
-h1.logo{
-  font-family:sans-serif;
-  position:static;
-  float:left;
-}
-h1.logo:hover{
+li:hover{
+  transition:color 1s;
   color:#f99442;
 }
-figure.last-fig{
-  float:right;
-  position:relative;
-  margin:20px auto auto 10px;
+h1.logo{
+  position:absolute;
+  margin-left:10%;
+  font-size:35px;
+  font-family:'Pacifico', cursive;
 }
-
+input{
+  background-color:#f99442;
+  color:#fff;
+  font-family:sans-serif;
+  border-radius:5px;
+  border-color:#f99442;
+}

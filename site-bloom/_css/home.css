@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section.primary img{
+  float:right;
+  position:relative;
+  margin:20px auto auto 10px;
+}
+figure{
+  width:230px;
+  float:left;
+  margin-bottom:40px;
+  position:relative;
+  margin-left:0px;
+  margin-right:0px;
+}
+figure img{
+  width:230px;
+  height:200px;
+}
+figure.fig-two{
+  margin-left:5%;
+  margin-right:5%;
+}

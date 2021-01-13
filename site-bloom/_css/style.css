@@ -13,7 +13,7 @@ body{
 }
 header{
   margin-top:-20px;
-  height:140px;
+  height:130px;
 }
 footer{
   clear:both;
@@ -33,7 +33,8 @@ header a, footer a{
   color:#ffffff;
 }
 footer p{
-  position:absolute;
+  top:25%;
+  position:relative;
   width:100%;
 }
 .esposition{

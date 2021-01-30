@@ -32,6 +32,14 @@ article{
 	background-color: #fcfced;
 	padding: 10px;
 }
+article a{
+	text-decoration: none;
+	color: #505264;
+	font-size: 1rem;
+}
+article a:hover{
+	color: #828271;
+}
 h1{
 	color: #828271;
 	font-size: 1.2em

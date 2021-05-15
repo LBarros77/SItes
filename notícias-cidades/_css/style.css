@@ -1,0 +1,193 @@
+/*Há códigos para outras páginas como de brasil.html e fotos.html*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Trebucht MS", Helvetica, sans-serif;
+	background: #fff url(../_images/fundo.png) repeat-x;
+}
+
+main {
+	width: 750px;
+	margin: 0 auto;
+}
+
+header {
+	height: 150px;
+	background: url(../_images/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../_images/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header ul {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+
+header ul li {
+	float: left;
+}
+
+header ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	/*background: url(../_images/divisor.png) no-repeat left center;*/
+}
+
+header ul .first a {
+	background: none;
+}
+
+header ul a:hover {
+	color: #69001d;
+}
+
+header #navigation a#home,
+header #navigation a#brazil,
+header #navigation a#international,
+header #navigation a#economia,
+header #navigation a#health,
+header #navigation a#science,
+header #navigation a#photos {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+section {
+	margin: 60px auto 20px auto;
+	width: 750px
+}
+
+article {
+	background: #f5f5f5 url(../_images/fundo-caixa.png);
+}
+
+article#primary {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+article#secundary {
+	width: 270px;
+	float: left;
+}
+
+aside {
+	float: left;
+	width: 180px;
+	margin: 0 0 20px -750px;
+	background: #f5f5f5 url(../_images/fundo-caixa.png);
+	padding: 5px;
+}
+
+aside ul a {
+	padding: 3px;
+	font-size: 0.9em;
+	line-height: 30px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #f3f3f3;
+}
+
+aside ul a:hover {
+	color: #a1a1a1;
+	padding-left: 20px;
+	background: #f9f9f9 url(../_images/marcador.png) no-repeat left center;
+}
+
+#two-column #secundary {
+	width: 555px;
+	margin-left: 195px;
+}
+
+#one-column #secundary, footer div {
+	width: 750px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 150px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #878529;
+	position: center;
+}
+
+img.principal-image {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+h2 {
+	background-color: #294c71;
+	font-size: 1.1em;
+	color: #fff;
+	padding: 5px;
+}
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	background-color: #b10333;
+}
+
+#primary h3 {
+	color: #fff;
+}
+
+p {
+	text-align: justify;
+}
+
+#notices-list li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+footer {
+	background-color: #294c71;
+	padding: 20px;
+}
+
+footer div {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}

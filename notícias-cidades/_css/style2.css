@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section.content-area {
+    display: flex;
+    flex-direction: row;
+}
+
+aside#side {order: 1;}
+
+article#primery {order: 2;}
+
+article#secundary {order: 1;}
+
+section.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+}

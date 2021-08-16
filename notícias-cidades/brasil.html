@@ -4,15 +4,16 @@
 	<title>Notícias cidade - Seu site de notícias</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<link rel="stylesheet" type="text/css" href="_css/style2.css">
 </head>
-<body>
+<body id="two-columns" class="brazil">
 	<main>
 		<header>
 			<h1 class="logo">Notícias</h1>
 			<nav>
 				<ul id="navigation">
 					<li class="first"><a href="index.html">Home</a></li>
-					<li><a href="brasil.html" id="brazil">Brasil</a></li>
+					<li class="brazil"><a id="brazil" href="brasil.html">Brasil</a></li>
 					<li><a href="internacional.html">Internacional</a></li>
 					<li><a href="economia.html">Economia</a></li>
 					<li><a href="saude.html">Saúde</a></li>
@@ -21,12 +22,39 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="two-column">
-			<article id="secundary">
+		<section class="container content-area">
+			<article id="primary">
 				<h2>Última entrevista</h2>
+				<img src="./_images/doutor.jpg" alt="Dr. Felipe" class="principal-image">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga deserunt veniam quasi consequatur officia voluptatibus nemo culpa autem sequi in dicta quod ipsum molestias ex praesentium neque, nihil sit voluptatem.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quo voluptatum hic? Accusamus ex id veniam porro ratione obcaecati assumenda voluptate sint, tempora, provident ullam nulla alias nam eum mollitia?</p>
 			</article>
-			<aside>
-				<h2>Entrevistas</h2>
+			<aside id="side">
+				<div class="box-content" id="interviews">
+					<h2>Entrevistas</h2>
+					<nav>
+						<ul>
+							<li><a href="">José Almeida</a></li>
+							<li><a href="">Felipe silva</a></li>
+							<li><a href="">Renato Rodrigues</a></li>
+							<li><a href="">Abelar Silveira</a></li>
+							<li><a href="">Andre Carlos</a></li>
+							<li><a href="">Márcio Melo</a></li>
+							<li><a href="">José Pedro</a></li>
+							<li><a href="">Fernando Weiss</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div id="email-box">
+					<h2>News</h2>
+					<div class="box-content">
+						<form action="post">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email">
+							<input type="submit" value="Cadastrar" placeholder="Seu E-mail:" class="submit">
+						</form>
+					</div>
+				</div>
 			</aside>
 		</section>
 	</main>
